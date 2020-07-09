@@ -23,7 +23,7 @@ WordPress の記事更新時に、sitemap.txt を生成するプラグインで�
 * 管理画面の設定 -> Text Sitemap に設定画面あり
 * 設定画面では、サイトマップに出力する投稿タイプの選択と、サイトマップの手動生成が可能
 
-# データベースの使用
+## データベースの使用
 * wp_options の meta_key = textsitemap_post_type に、設定画面でチェックした投稿タイプを保存
 * wp_options の meta_key = textsitemap_generate に、管理画面からサイトマップを手動生成する時のフラグを保存
 * これらのデータベースに作られた項目は、プラグインのアンインストール時に自動削除される
